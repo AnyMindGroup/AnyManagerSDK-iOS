@@ -1,2 +1,2 @@
 # AnyManagerSDK-iOS
-Version relases for AppLovinAnyManagerIOS
+A single repository for all public releases of AnyManagerSDK, AnyManagerMediation, AnyManagerAppLovinSDK, and AnyManagerIronSourceSDK.
