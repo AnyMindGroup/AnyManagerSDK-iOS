@@ -12,6 +12,8 @@ This SPM package exposes a single product, `AnyManagerSDK`, built from the `AnyM
   - **Chartboost** (`ChartboostAdapterTarget`)
   - **DTExchange** (`DTExchangeAdapterTarget`)
   - **InMobi** (`InMobiAdapterTarget`)
+  - **IronSource** (`IronSourceAdapterTarget`)
+  - **LiftoffMonetize** (`LiftoffMonetizeAdapterTarget`)
 
 ## Requirements
 

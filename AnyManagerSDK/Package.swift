@@ -34,6 +34,14 @@ let package = Package(
             url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git",
             from: "11.4.1"
         ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-ironsource.git",
+            from: "9.5.0"
+        ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-liftoffmonetize.git",
+            from: "7.7.6"
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -51,6 +59,10 @@ let package = Package(
                          package: "googleads-mobile-ios-mediation-dtexchange"),
                 .product(name: "InMobiAdapterTarget",
                          package: "googleads-mobile-ios-mediation-inmobi"),
+                .product(name: "IronSourceAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-ironsource"),
+                .product(name: "LiftoffMonetizeAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-liftoffmonetize"),
             ],
             path: "Sources/AnyManagerSDK",
         ),
