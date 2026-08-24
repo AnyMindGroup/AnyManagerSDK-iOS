@@ -14,12 +14,18 @@ This SPM package exposes a single product, `AnyManagerSDK`, built from the `AnyM
   - **InMobi** (`InMobiAdapterTarget`)
   - **IronSource** (`IronSourceAdapterTarget`)
   - **LiftoffMonetize** (`LiftoffMonetizeAdapterTarget`)
+  - **Line** (`LineAdapterTarget`)
+  - **Meta (Facebook Audience Network)** (`MetaAdapterTarget`)
+  - **Mintegral** (`MintegralAdapterTarget`)
+  - **Moloco** (`MolocoAdapterTarget`)
+  - **Pangle** (`PangleAdapterTarget`)
+  - **Unity** (`UnityAdapterTarget`)
 
 ## Requirements
 
 - iOS 13.0 or later
 - Swift 5.9 or later
-- Xcode 14 or later
+- Xcode 26 or later
 
 ## Installation (Local Xcode Project)
 
