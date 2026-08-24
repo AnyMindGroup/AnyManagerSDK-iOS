@@ -42,6 +42,30 @@ let package = Package(
             url: "https://github.com/googleads/googleads-mobile-ios-mediation-liftoffmonetize.git",
             from: "7.7.6"
         ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-line.git",
+            from: "3.0.100"
+        ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-meta.git",
+            from: "6.22.0"
+        ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-mintegral.git",
+            from: "8.1.6"
+        ),
+         .package(
+             url: "https://github.com/googleads/googleads-mobile-ios-mediation-moloco.git",
+             from: "4.9.0"
+         ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-pangle.git",
+            from: "8.2.1"
+        ),
+        .package(
+            url: "https://github.com/googleads/googleads-mobile-ios-mediation-unity.git",
+            from: "4.19.0"
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -63,6 +87,18 @@ let package = Package(
                          package: "googleads-mobile-ios-mediation-ironsource"),
                 .product(name: "LiftoffMonetizeAdapterTarget",
                          package: "googleads-mobile-ios-mediation-liftoffmonetize"),
+                .product(name: "LineAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-line"),
+                .product(name: "MetaAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-meta"),
+                .product(name: "MintegralAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-mintegral"),
+                .product(name: "MolocoAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-moloco"),
+                .product(name: "PangleAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-pangle"),
+                .product(name: "UnityAdapterTarget",
+                         package: "googleads-mobile-ios-mediation-unity"),
             ],
             path: "Sources/AnyManagerSDK",
         ),
